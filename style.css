@@ -1,0 +1,57 @@
+/* 留言板样式 */
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mes-board {
+  margin: 25px 0;
+  padding: 10px;
+  background-color: gray;
+}
+
+.mes-board li {
+  padding: 0.7em;
+  list-style: none;
+}
+
+.mes-board li + li {
+  border-top: 1px dashed #ffffff;
+}
+
+.mes-board h4 {
+  display: inline;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.mes-board small {
+  color: #999999;
+}
+
+.mes-board div {
+  padding: 0.4em 0;
+}
+
+.delete-btn {
+  float: right;
+}
